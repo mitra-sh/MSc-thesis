@@ -10,7 +10,7 @@ The implementation is split across four repositories:
 
 - storm-streaming-engine — contains the Storm pipeline itself and the local adaptation logic (operator-level load balancing).
 - DSP-orchestrator — contains the global adaptation service that monitors the cluster and makes scaling decisions.
-- elastic-distibuted-storm-deployment — contains the Docker Swarm deployment setup and the network simulation used to run experiments.
+- DSP-deployment — contains the Docker Swarm deployment setup and the network simulation used to run experiments.
 - DSP-results-visualization — contains the Python scripts used to analyze and plot the experimental results.
 
 
